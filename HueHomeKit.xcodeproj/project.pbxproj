@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		0D57D2601DF7A2DC000958FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D57D25F1DF7A2DC000958FC /* AppDelegate.swift */; };
-		0D57D2621DF7A2DC000958FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D57D2611DF7A2DC000958FC /* ViewController.swift */; };
 		0D57D2651DF7A2DC000958FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D57D2631DF7A2DC000958FC /* Main.storyboard */; };
 		0D57D2671DF7A2DC000958FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D57D2661DF7A2DC000958FC /* Assets.xcassets */; };
 		0D57D26A1DF7A2DC000958FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D57D2681DF7A2DC000958FC /* LaunchScreen.storyboard */; };
+		0D57D2731DF7A38D000958FC /* LightsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D57D2721DF7A38D000958FC /* LightsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0D57D25C1DF7A2DC000958FC /* HueHomeKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HueHomeKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D57D25F1DF7A2DC000958FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0D57D2611DF7A2DC000958FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0D57D2641DF7A2DC000958FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0D57D2661DF7A2DC000958FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0D57D2691DF7A2DC000958FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0D57D26B1DF7A2DC000958FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D57D2721DF7A38D000958FC /* LightsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +54,22 @@
 		0D57D25E1DF7A2DC000958FC /* HueHomeKit */ = {
 			isa = PBXGroup;
 			children = (
-				0D57D25F1DF7A2DC000958FC /* AppDelegate.swift */,
-				0D57D2611DF7A2DC000958FC /* ViewController.swift */,
+				0D57D2721DF7A38D000958FC /* LightsViewController.swift */,
 				0D57D2631DF7A2DC000958FC /* Main.storyboard */,
+				0D57D2711DF7A36A000958FC /* Supporting Files */,
+			);
+			path = HueHomeKit;
+			sourceTree = "<group>";
+		};
+		0D57D2711DF7A36A000958FC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
 				0D57D2661DF7A2DC000958FC /* Assets.xcassets */,
 				0D57D2681DF7A2DC000958FC /* LaunchScreen.storyboard */,
 				0D57D26B1DF7A2DC000958FC /* Info.plist */,
+				0D57D25F1DF7A2DC000958FC /* AppDelegate.swift */,
 			);
-			path = HueHomeKit;
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D57D2621DF7A2DC000958FC /* ViewController.swift in Sources */,
 				0D57D2601DF7A2DC000958FC /* AppDelegate.swift in Sources */,
+				0D57D2731DF7A38D000958FC /* LightsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
